@@ -18,6 +18,5 @@ print("Salary:", emp.get_salary())
 emp.set_salary(60000)
 print("Updated Salary:", emp.get_salary())
 
-# Direct access (not recommended)
-# print(emp.__salary)   will give error
-print(emp._Employee__salary)  # possible but breaks encapsulation
+
+print(emp._Employee__salary) 
